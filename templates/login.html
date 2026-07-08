@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Alpha Chat</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+  <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome back!</h1>
+    <p class="subtitle">Login to continue to Concord Dashboard!</p>
+    
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="email">EMAIL <span class="required">*</span></label>
+        <input type="email" placeholder="Enter your email" id="email" required>
+      </div>
+      
+      <div class="input-group">
+        <label for="password">PASSWORD <span class="required">*</span></label>
+        <input type="password" placeholder="Enter your password" id="password" required>
+      </div>
+      
+      <button id="login-btn" type="submit">
+        <span class="btn-text">Login</span>
+        <span class="dots">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+
+
+      
+      <p id="error"></p>
+      
+      <p class="register-text">Don't have an account? <a href="register" class="register-link">Register</a></p>
+    </form>
+  </div>
+
+  <script crossorigin="anonymous" src="//unpkg.com/same-runtime/dist/index.global.js"></script>
+  <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+  <script src="/static/js/login.js"></script>
+  
+  </script>
+</body>
+</html>
