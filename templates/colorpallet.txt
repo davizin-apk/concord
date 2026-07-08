@@ -1,7 +1,0 @@
-Fundo principal:      #16213e
-Avatar azul:          #273c76
-Avatar verde:         #1b4332
-Avatar roxo:          #411882
-Avatar turquesa:      #0a504a
-Avatar bordô:         #640e28
-Avatar cinza:         #273140
